@@ -1,3 +1,7 @@
-$('p').click(function(){
-    (this).slideToggle('slow');
-});
+$(document).ready(function(){
+
+    $('button').click(function(){
+        $(this).prev().slideToggle('slow');
+    });
+
+})
