@@ -3,6 +3,19 @@
 html, body {
     overflow-x: hidden;
     height: 100%;
+    background-color: #DCE2F4;
+}
+
+h1
+h2
+h3
+h4
+h5 {
+    font-family: 'Crimson Text', serif;
+}
+
+p {
+    font-family: 'Noto Serif', serif;
 }
 
 a {
@@ -11,9 +24,12 @@ a {
 
 /*----------------------------------------------------------- Images */
 
+
 .index-image-wrapper img {
     width: 100%;
     height: 100%;
+    background-size: cover;
+    border-bottom:#7A6E11 1px solid;
 }
 
 /*----------------------------------------------------------- /Images */
@@ -26,6 +42,8 @@ nav {
 
 .topnav {
     min-height: 100px;
+    border-bottom:#7A6E11 2px solid;
+    border-top: #7A6E11 2px solid;
 }
 
 .topnav-links {
@@ -43,7 +61,6 @@ nav {
 
 .topnav-links li a {
     font-family: 'Noto Serif', serif;
-    /*font-family: 'Crimson Text', serif;*/
     font-size: 20px;
     font-weight: 600;
     transition: color 1s ease-in-out;
@@ -72,6 +89,63 @@ nav {
 
 /*---------------------------------------------------------- /Nav Bar Styling */
 
+/*---------------------------------------------------------- Index section */
+
+.index-title-header {    
+    border-top: #7A6E11 1px solid;
+    border-bottom: #7A6E11 2px solid;
+}
+
+.index-header {
+    color: #0F1E0E;
+    text-align: center;
+    margin-top: 2.5px;
+}
+
+.index-header-subtitle {
+    color: #0F1E0E;
+    text-align: center;
+    border-bottom: #7A6E11 2px solid;
+    margin-top: 10px;
+}
+
+.history-container {
+    border-bottom: #7A6E11 2px solid;
+    padding-top: 5px;
+}
+
+.history-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #0F1E0E;
+}
+
+/*---------------------------------------------------------- /Index section */
+
+/*---------------------------------------------------------- Events Carousel */
+
+.carousel-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #353434;
+    min-height: 400px;
+    margin-top: 60px;
+}
+
+.glyphicon-chevron-left {
+    color: #ffc94c;
+}
+
+.glyphicon-chevron-right {
+    color: #ffc94c;
+}
+
+.carousel-inner img{
+    display:inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
 /*---------------------------------------------------------- Footer Styling */
 
 footer {
@@ -80,6 +154,8 @@ footer {
 
 .footer-main {
     min-height: 75px;
+    border-bottom:#7A6E11 2px solid;
+    border-top: #7A6E11 1px solid;
 }
 
 .footer-title {
@@ -133,6 +209,8 @@ footer {
 /*---------------------------------------------------------- /Keyframes */
 
 /*---------------------------------------------------------- Media Queries */
+
+
 
 @media only screen and (min-width: 768px) {
 
