@@ -1,6 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,200,300,400,500,600,700,800,900|Noto+Serif:100,200,300,400,500,600,700,800,900&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
+html, body {
+    overflow-x: hidden;
 }
+
+/* Nav Bar Styling */
+
+.topnav {
+    min-height: 100px;
+    background-color: #bada55;
+}
+
+.topnav-links {
+    display: block;
+    position: relative;
+}
+
+.topnav-links li {    
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px 5px 0px;;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.topnav-links li a {
+    font-family: 'Noto Serif', serif;
+    /*font-family: 'Crimson Text', serif;*/
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.topnav-links li a i {
+    padding-right: 10px;
+}
+
+/* /Nav Bar Styling */
