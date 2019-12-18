@@ -45,17 +45,81 @@ nav {
     color: #7A6E11;
 }
 
+.topnal-links li a i {
+    transition: 1s ease-in-out;
+}
+
 .topnav-links li a:hover{
     transition: color 1s ease-in-out;
-    color: white;    
+    color: #7A6E11;    
 }
 
 .topnav-links li a:hover > i {
+    transition: 1s ease-in-out;
     transform: rotateZ(30deg);
 }
 
 /*---------------------------------------------------------- /Nav Bar Styling */
 
+/*---------------------------------------------------------- Footer Styling */
+
+footer {
+    background-color: #AEC1BC;
+}
+
+.footer-main {
+    min-height: 75px;
+}
+
+.footer-title {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0F1E0E;
+    padding-top: 5px;
+}
+
+.footer-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.footer-items li {
+    display: inline;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none
+}
+
+.footer-items a i {
+    font-size: 25px;
+    color: #7A6E11;
+    display: inline-block;
+}
+
+.footer-items a i:hover {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+/*---------------------------------------------------------- /Footer Styling */
+
+/*---------------------------------------------------------- Keyframes */
+
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(2px, -2px); }
+    50% { transform: translate(0px, 0px); }
+    75% { transform: translate(-2px, -2px); }
+    100% { transform: translate(0px, 0px); }
+}
+
+/*---------------------------------------------------------- /Keyframes */
 
 /*---------------------------------------------------------- Media Queries */
 
