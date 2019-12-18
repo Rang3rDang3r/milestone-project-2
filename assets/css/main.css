@@ -4,11 +4,18 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Nav Bar Styling */
+a {
+    text-decoration: none !important;
+}
+
+/*----------------------------------------------------------- Nav Bar Styling */
+
+nav {
+    background-color: #AEC1BC;
+}
 
 .topnav {
     min-height: 100px;
-    background-color: #bada55;
 }
 
 .topnav-links {
@@ -21,7 +28,7 @@ html, body {
     margin: 0;
     padding: 5px 0px 5px 0px;;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #0F1E0E;
 }
 
 .topnav-links li a {
@@ -29,12 +36,54 @@ html, body {
     /*font-family: 'Crimson Text', serif;*/
     font-size: 20px;
     font-weight: 600;
-    text-decoration: none;
-    color: black;
+    transition: color 1s ease-in-out;
+    color: #0F1E0E;
 }
 
 .topnav-links li a i {
     padding-right: 10px;
+    color: #7A6E11;
 }
 
-/* /Nav Bar Styling */
+.topnav-links li a:hover{
+    transition: color 1s ease-in-out;
+    color: white;
+    
+}
+
+.topnav-links li a i:hover {
+    transform: rotateZ(30deg);
+}
+
+/*---------------------------------------------------------- /Nav Bar Styling */
+
+
+/*---------------------------------------------------------- Media Queries */
+
+@media only screen and (min-width: 768px) {
+
+.topnav {
+    padding-top: 7.5px;
+    padding-bottom: 2.5px;
+    min-height: 20px;
+}
+
+.topnav-links li {
+    display: inline-block;
+    border-bottom: hidden;
+    padding-left: 25px;
+    vertical-align: middle;
+}
+
+.topnav-links li a i {
+    padding-right: 5.5px;
+}
+
+.topnav-links li:nth-child(5) {
+    float: right;
+}
+
+
+}
+
+/*---------------------------------------------------------- /Media Queries */
