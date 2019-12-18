@@ -68,7 +68,7 @@ nav {
 }
 
 .topnav-links li a i {
-    padding-right: 10px;
+    padding-right: 7.5px;
     color: #7A6E11;
     transition: transform 1s ease-in-out;
 }
@@ -126,18 +126,27 @@ nav {
 
 .carousel-container {
     padding-top: 20px;
-    padding-bottom: 20px;
     background-color: #353434;
     min-height: 400px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .glyphicon-chevron-left {
-    color: #ffc94c;
+    color: #7A6E11;
+}
+
+.glyphicon-chevron-left:hover {
+    transition: 1s ease-in-out;
+    transform: translateX(-6px);
 }
 
 .glyphicon-chevron-right {
-    color: #ffc94c;
+    color: #7A6E11;
+}
+
+.glyphicon-chevron-right:hover {
+    transition: 1s ease-in-out;
+    transform: translateX(6px);
 }
 
 .carousel-inner img{
@@ -145,6 +154,19 @@ nav {
     margin: auto;
     vertical-align: middle;
 }
+
+/*---------------------------------------------------------- /Events Carousel */
+
+/*---------------------------------------------------------- Events Content */
+
+.event-containers {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #DCE2F4;
+    padding-bottom: 20px;
+}
+
+/*---------------------------------------------------------- /Events Content */
 
 /*---------------------------------------------------------- Footer Styling */
 
@@ -155,7 +177,7 @@ footer {
 .footer-main {
     min-height: 75px;
     border-bottom:#7A6E11 2px solid;
-    border-top: #7A6E11 1px solid;
+    border-top: #7A6E11 2px solid;
 }
 
 .footer-title {
