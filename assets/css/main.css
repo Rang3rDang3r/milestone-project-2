@@ -53,6 +53,7 @@ nav {
 .topnav-links li a i {
     padding-right: 10px;
     color: #7A6E11;
+    transition: transform 1s ease-in-out;
 }
 
 .topnal-links li a i {
