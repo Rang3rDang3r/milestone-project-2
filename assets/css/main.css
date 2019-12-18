@@ -2,11 +2,21 @@
 
 html, body {
     overflow-x: hidden;
+    height: 100%;
 }
 
 a {
     text-decoration: none !important;
 }
+
+/*----------------------------------------------------------- Images */
+
+.index-image-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------------------------------------------- /Images */
 
 /*----------------------------------------------------------- Nav Bar Styling */
 
