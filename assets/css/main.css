@@ -47,11 +47,10 @@ nav {
 
 .topnav-links li a:hover{
     transition: color 1s ease-in-out;
-    color: white;
-    
+    color: white;    
 }
 
-.topnav-links li a i:hover {
+.topnav-links li a:hover > i {
     transform: rotateZ(30deg);
 }
 
