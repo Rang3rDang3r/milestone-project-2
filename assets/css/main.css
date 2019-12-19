@@ -109,6 +109,11 @@ nav {
 
 /*---------------------------------------------------------- Index section */
 
+#main-header-padding {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 .index-title-header {    
     border-top: #7A6E11 1px solid;
     border-bottom: #7A6E11 2px solid;
@@ -147,6 +152,7 @@ nav {
 .jumbotron {
     background-color: #DCE2F4;
     max-height: 600px;
+    display: none;
 }
 
 /*---------------------------------------------------------- /Index Jumbotron */
@@ -328,7 +334,8 @@ footer {
     float: right;
 }
 
-
+.jumbotron {
+    display: block;
 }
 
 /*---------------------------------------------------------- /Media Queries */
