@@ -78,7 +78,11 @@ nav {
     margin: 0;
     padding: 5px 0px 5px 0px;;
     text-align: center;
-    border-bottom: 1px solid #0F1E0E;
+    border-bottom: 1px solid #7A6E11;
+}
+
+.topnav-links li:nth-child(5) {
+    border-bottom: none;
 }
 
 .topnav-links li a {
@@ -143,6 +147,9 @@ nav {
     color: #0F1E0E;
     font-family: 'Noto Serif', serif;
     text-align: center;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*---------------------------------------------------------- /Index section */
@@ -313,29 +320,31 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
-.topnav {
-    padding-top: 7.5px;
-    padding-bottom: 2.5px;
-    min-height: 20px;
-}
+    .topnav {
+        padding-top: 7.5px;
+        padding-bottom: 2.5px;
+        min-height: 20px;
+    }
 
-.topnav-links li {
-    display: inline-block;
-    border-bottom: hidden;
-    padding-left: 25px;
-    vertical-align: middle;
-}
+    .topnav-links li {
+        display: inline-block;
+        border-bottom: hidden;
+        padding-left: 25px;
+        vertical-align: middle;
+    }
 
-.topnav-links li a i {
-    padding-right: 5.5px;
-}
+    .topnav-links li a i {
+        padding-right: 5.5px;
+    }
 
-.topnav-links li:nth-child(5) {
-    float: right;
-}
+    .topnav-links li:nth-child(5) {
+        float: right;
+    }
 
-.jumbotron {
-    display: block;
+    .jumbotron {
+        display: block;
+    }
+
 }
 
 /*---------------------------------------------------------- /Media Queries */
