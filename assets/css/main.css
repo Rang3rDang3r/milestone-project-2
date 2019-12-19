@@ -24,12 +24,33 @@ a {
 
 /*----------------------------------------------------------- Images */
 
-
+/*------ Main title image */
 .index-image-wrapper img {
     width: 100%;
     height: 100%;
     background-size: cover;
     border-bottom:#7A6E11 1px solid;
+}
+
+/*------ Jumbotron images */
+
+.jumbotron div img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*------ 3 photos under events jumbotron */
+#index-img-size {
+  width: 300px;
+}
+
+#index-img-size img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /*----------------------------------------------------------- /Images */
@@ -122,40 +143,14 @@ nav {
 
 /*---------------------------------------------------------- /Index section */
 
-/*---------------------------------------------------------- Events Carousel */
+/*---------------------------------------------------------- Index Jumbotron */
 
-.carousel-container {
-    padding-top: 20px;
-    background-color: #353434;
-    min-height: 400px;
-    margin-top: 40px;
+.jumbotron {
+    background-color: #DCE2F4;
+    max-height: 600px;
 }
 
-.glyphicon-chevron-left {
-    color: #7A6E11;
-}
-
-.glyphicon-chevron-left:hover {
-    transition: 1s ease-in-out;
-    transform: translateX(-6px);
-}
-
-.glyphicon-chevron-right {
-    color: #7A6E11;
-}
-
-.glyphicon-chevron-right:hover {
-    transition: 1s ease-in-out;
-    transform: translateX(6px);
-}
-
-.carousel-inner img{
-    display:inline-block;
-    margin: auto;
-    vertical-align: middle;
-}
-
-/*---------------------------------------------------------- /Events Carousel */
+/*---------------------------------------------------------- /Index Jumbotron */
 
 /*---------------------------------------------------------- Events Content */
 
