@@ -320,7 +320,29 @@ nav {
 
 /*---------------------------------------------------------- Attractions what to do */
 
+.individual-attraction {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.attraction-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.attraction-title {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+}
+
+.attraction-content {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
 
 /*---------------------------------------------------------- /Attractions what to doo */
 
@@ -427,6 +449,13 @@ footer {
         width: 60%;
     }
 
+    .attraction-image {
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 @media only screen and (min-width: 965px) {
@@ -438,6 +467,23 @@ footer {
     #carousel-image {
         width: 50%;
     }
+
+    .attraction-image {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .attraction-image {
+    height: 150px;
+    width: auto;
+    }
+
 }
 
 /*---------------------------------------------------------- /Media Queries */
