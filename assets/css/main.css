@@ -20,6 +20,7 @@ p {
 
 a {
     text-decoration: none !important;
+    color: #0F1E0E;
 }
 
 /*----------------------------------------------------------- Images */
@@ -94,10 +95,6 @@ nav {
     transition: transform 1s ease-in-out;
 }
 
-.topnal-links li a i {
-    transition: 1s ease-in-out;
-}
-
 .topnav-links li a:hover{
     transition: color 1s ease-in-out;
     color: #7A6E11;    
@@ -139,6 +136,8 @@ nav {
     padding-top: 15px;
     padding-bottom: 15px;
     color: #0F1E0E;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
 }
 
 /*---------------------------------------------------------- /Index section */
@@ -184,6 +183,61 @@ nav {
 }
 
 /*---------------------------------------------------------- /Events Content */
+
+/*---------------------------------------------------------- Transport */
+
+.transport-header {
+    color: #0F1E0E;
+    text-align: center;
+    border-bottom: #7A6E11 2px solid;
+    border-top: #7A6E11 2px solid;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.transport-containers {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.transport-headers {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0F1E0E;
+}
+
+.transport-headers i {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    color: #7A6E11;
+}
+
+.transport-content {
+    font-family: 'Noto Serif', serif;
+    color: #0F1E0E;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.transport-link {
+    color: #7A6E11;
+    border: #7A6E11 1.3px solid;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+    opacity: 0.5;
+    transition: ease-in-out 1s;
+}
+
+.transport-link:hover {
+    transition: ease-in-out 1s;
+    opacity: 1;
+    color: #7A6E11;
+}
+
+/*---------------------------------------------------------- Transport */
 
 /*---------------------------------------------------------- Footer Styling */
 
