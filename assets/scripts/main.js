@@ -9,18 +9,23 @@ $(document).ready(function(){
     /* change the src="" depending on each button */
     $("#button1").click(function() {
         $("#carousel-image").attr("src", "assets/images/carousel-images/carousel-image1.jpg")
+        $("#carousel-image").attr("alt", "Farnham Castle")
     });
     $("#button2").click(function() {
         $("#carousel-image").attr("src", "assets/images/carousel-images/carousel-image2.jpg")
+        $("#carousel-image").attr("alt", "Farnham Museum")
     });
     $("#button3").click(function() {
         $("#carousel-image").attr("src", "assets/images/carousel-images/carousel-image3.jpg")
+        $("#carousel-image").attr("alt", "Lion and Lamb walk shopping")
     });
     $("#button4").click(function() {
         $("#carousel-image").attr("src", "assets/images/carousel-images/carousel-image4.jpg")
+        $("#carousel-image").attr("alt", "Farnham Church")
     });
     $("#button5").click(function() {
         $("#carousel-image").attr("src", "assets/images/carousel-images/carousel-image5.jpg")
+        $("#carousel-image").attr("alt", "Birdworld")
     });
 
 })
