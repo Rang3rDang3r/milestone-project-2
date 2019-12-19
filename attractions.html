@@ -30,7 +30,32 @@
         </div>
     </nav>
 <!---------------------------------------- /Nav Bar --->
-
+<!---------------------------------------- Page Title --->
+    <article>
+        <div class="index-title-header">
+            <h1 id="main-header-padding" class="index-header"><strong>Attractions</strong></h1>
+            <h3 id="main-header-padding" class="index-header"><i>What to do and Where to find them</i></h3>
+        </div>
+    </article>
+<!---------------------------------------- /Page Title --->
+<!-------------------------------------------------------------------Carousel-->
+    <article>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="carousel-image-main-container" class="carousel-image-container col-xs-12">
+                    <img id="carousel-image" src="assets/images/carousel-images/carousel-image1.jpg">
+                </div>
+                <div class="button-selectors">
+                    <button class="button-carousel" id="button1">1</button>
+                    <button class="button-carousel" id="button2">2</button>
+                    <button class="button-carousel" id="button3">3</button>
+                    <button class="button-carousel" id="button4">4</button>
+                    <button class="button-carousel" id="button5">5</button>
+                </div>
+            </div>
+        </div>
+    </article>
+<!------------------------------------------------------------------/Carousel-->
 <!---------------------------------------- Footer --->
     <footer>
         <div class="container-fluid">
@@ -50,7 +75,16 @@
 
 </body>
 
-<!--- Loading Javascript and Jquery Files at the end of the page --->
+<!--------------------------------------- Loading JQuery --->
     <script type="text/javascript" src="assets/scripts/jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="assets/scripts/mainjs.js"></script>
+<!---
+<!--------------------------------------- Loading Jasmine ---
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.7.0/jasmine.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.7.0/jasmine-html.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.7.0/boot.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.7.0/jasmine.css">
+----->
+<!--------------------------------------- Loading Jasmine JS test file then Main Javascript file --->
+    <!-----<script type="text/javascript" src="assets/scripts/mainjsSpec.js"></script>--->
+    <script type="text/javascript" src="assets/scripts/main.js"></script>
 </html>
