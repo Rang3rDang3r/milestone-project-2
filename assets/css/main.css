@@ -318,7 +318,7 @@ nav {
 
 /*---------------------------------------------------------- /Attractions Carousel */
 
-/*---------------------------------------------------------- Attractions what to do */
+/*---------------------------------------------------------- Attractions 'what to do' */
 
 .individual-attraction {
     padding-top: 10px;
@@ -344,7 +344,15 @@ nav {
     font-family: 'Noto Serif', serif;
 }
 
-/*---------------------------------------------------------- /Attractions what to doo */
+#show-hide1 {
+    display: none;
+}
+
+#show-hide2 {
+    display: none;
+}
+
+/*---------------------------------------------------------- /Attractions 'what to doo' */
 
 /*---------------------------------------------------------- Footer Styling */
 
@@ -454,6 +462,18 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .show-more-less-button {
+        display: none;
+    }
+
+    #show-hide1 {
+    display: block
+    }
+
+    #show-hide2 {
+    display: block;
     }
 
 }

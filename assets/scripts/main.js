@@ -28,4 +28,10 @@ $(document).ready(function(){
         $("#carousel-image").attr("alt", "Birdworld")
     });
 
+    /* Slide toggle for attractions */
+    $('button').click(function(){
+        $("#show-hide1").slideToggle('slow')
+        $("#show-hide2").slideToggle('slow');
+    });
+
 })
