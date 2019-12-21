@@ -407,6 +407,33 @@ nav {
 
 /*---------------------------------------------------------- /Restaurants */
 
+/*---------------------------------------------------------- Hotels */
+
+.hotels-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.hotels-title {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+}
+
+.hotels-title img {
+    padding-right: 5px;
+}
+
+.hotels-content {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+/*---------------------------------------------------------- /Hotels */
+
 /*---------------------------------------------------------- Google Maps API */
 
 .map-container {
@@ -543,6 +570,13 @@ footer {
         margin-right: auto;
     }
 
+    .hotels-image {
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /* button for attractions */
     .show-more-less-button {
         display: none;
@@ -588,6 +622,13 @@ footer {
         margin-right: auto;
     }
 
+    .hotels-image {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -598,6 +639,11 @@ footer {
     }
 
     .restaurant-image {
+    height: 150px;
+    width: auto;
+    }
+
+    .hotels-image {
     height: 150px;
     width: auto;
     }
