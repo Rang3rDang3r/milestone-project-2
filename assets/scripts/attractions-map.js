@@ -1,11 +1,11 @@
 function initMap() {
 
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: {
-            lat: 51.216123, 
-            lng: -0.797505
-        }
+        
+        center: new google.maps.LatLng (51.216123, -0.797505,),
+            zoom: 11,
+            streetViewControl: false,
+            mapTypeControl: false,
     });
 
     /* Custom markers per location */
