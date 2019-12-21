@@ -132,11 +132,7 @@
 <!------------------------------------------------------------------ /Main Content --->
 <!------------------------------------------------------------------ Google Maps Api --->
     <article>
-        <div class="container=fluid">
-            <div class="row">
-                <div id="map"></div>
-            </div>
-        </div>
+        <div id="map"></div>
     </article>
 <!------------------------------------------------------------------ /Google Maps Api --->
 <!---------------------------------------- Footer --->
@@ -155,15 +151,15 @@
         </div>
     </footer>
 <!---------------------------------------- /Footer --->
-
+<!---------------------------------------- Google Maps API & JS link file --->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_Aedh8J9-_IiAyktgUxIx5A_q7QjLal4&callback=initMap"></script>
+    <script type="text/javascript" src="assets/scripts/attractions-map.js"></script>
+    
 </body>
 
 <!--------------------------------------- Loading JQuery --->
     <script type="text/javascript" src="assets/scripts/jquery-3.4.1.js"></script>
-<!--------------------------------------- Maps API Key --->
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_Aedh8J9-_IiAyktgUxIx5A_q7QjLal4&callback=initMap"></script>
-<!--------------------------------------- Loading JS files --->
-    <script type="text/javascript" src="assets/scripts/attractions-maps.js"></script>
+<!--------------------------------------- Loading Additional JS files --->  
     <script type="text/javascript" src="assets/scripts/main.js"></script>
 </html>
