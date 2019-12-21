@@ -171,6 +171,11 @@ nav {
     font-weight: 700;
 }
 
+#add-top-border {
+    border-top: #7A6E11 2px solid;
+    padding-top: 7.5px;
+}
+
 /*---------------------------------------------------------- /Additional page headers */
 
 /*---------------------------------------------------------- Index Jumbotron */
@@ -375,6 +380,33 @@ nav {
 
 /*---------------------------------------------------------- /Attractions 'what to doo' */
 
+/*---------------------------------------------------------- Restaurants */
+
+.restaurant-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.restaurant-title {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+}
+
+.restaurant-title img {
+    padding-right: 5px;
+}
+
+.restaurant-content {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+/*---------------------------------------------------------- /Restaurants */
+
 /*---------------------------------------------------------- Google Maps API */
 
 .map-container {
@@ -504,6 +536,14 @@ footer {
         margin-right: auto;
     }
 
+    .restaurant-image {
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* button for attractions */
     .show-more-less-button {
         display: none;
     }
@@ -516,6 +556,7 @@ footer {
     display: block;
     }
 
+    /* Maps for sizes larger than mobile */
     .map-container {
         width: 500px;
         height: 300px;
@@ -540,11 +581,23 @@ footer {
         margin-right: auto;
     }
 
+    .restaurant-image {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
 
     .attraction-image {
+    height: 150px;
+    width: auto;
+    }
+
+    .restaurant-image {
     height: 150px;
     width: auto;
     }
