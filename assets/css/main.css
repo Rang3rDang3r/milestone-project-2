@@ -339,6 +339,10 @@ nav {
     font-weight: 600;
 }
 
+.attraction-title img {
+    padding-right: 5px;
+}
+
 .attraction-content {
     text-align: center;
     font-family: 'Noto Serif', serif;
