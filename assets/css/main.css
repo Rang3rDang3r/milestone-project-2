@@ -378,8 +378,8 @@ nav {
 /*---------------------------------------------------------- Google Maps API */
 
 .map-container {
-    height: 300px;
-    width: 500px;
+    height: 250px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -514,6 +514,11 @@ footer {
 
     #show-hide2 {
     display: block;
+    }
+
+    .map-container {
+        width: 500px;
+        height: 300px;
     }
 
 }
