@@ -352,7 +352,33 @@ nav {
     display: none;
 }
 
+.show-more-less-button {
+    background-color: #DCE2F4;
+    color: #7A6E11;
+    font-weight: bolder;
+    border: #7A6E11 1.2px solid;
+    border-radius: 15px;
+    width: 75px;
+    height: 50px;
+    opacity: 0.5;
+    transition: ease-in-out 1s;
+}
+
+.show-more-less-button:hover {
+    transition: ease-in-out 1s;
+    opacity: 1;
+}
+
 /*---------------------------------------------------------- /Attractions 'what to doo' */
+
+/*---------------------------------------------------------- Google Maps API */
+
+#map {
+    height: 500px;
+    width: 500px;
+}
+
+/*---------------------------------------------------------- /Google Maps Api */
 
 /*---------------------------------------------------------- Footer Styling */
 

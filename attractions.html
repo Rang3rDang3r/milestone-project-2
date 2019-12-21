@@ -123,11 +123,22 @@
                         Officia sit neque at amet temporibus praesentium autem!</p>
                     </div>
                 </div>
+                <div class="button-selectors">
                 <button class="show-more-less-button">Show More</button>
+                </div>
             </div>
         </div>
     </main>
 <!------------------------------------------------------------------ /Main Content --->
+<!------------------------------------------------------------------ Google Maps Api --->
+    <article>
+        <div class="container=fluid">
+            <div class="row">
+                <div id="map"></div>
+            </div>
+        </div>
+    </article>
+<!------------------------------------------------------------------ /Google Maps Api --->
 <!---------------------------------------- Footer --->
     <footer>
         <div class="container-fluid">
@@ -149,14 +160,10 @@
 
 <!--------------------------------------- Loading JQuery --->
     <script type="text/javascript" src="assets/scripts/jquery-3.4.1.js"></script>
-<!---
-<!--------------------------------------- Loading Jasmine ---
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.7.0/jasmine.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.7.0/jasmine-html.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.7.0/boot.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.7.0/jasmine.css">
------>
-<!--------------------------------------- Loading Jasmine JS test file then Main Javascript file --->
-    <!-----<script type="text/javascript" src="assets/scripts/mainjsSpec.js"></script>--->
+<!--------------------------------------- Maps API Key --->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_Aedh8J9-_IiAyktgUxIx5A_q7QjLal4&callback=initMap"></script>
+<!--------------------------------------- Loading JS files --->
+    <script type="text/javascript" src="assets/scripts/attractions-maps.js"></script>
     <script type="text/javascript" src="assets/scripts/main.js"></script>
 </html>
