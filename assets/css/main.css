@@ -400,9 +400,31 @@ nav {
     padding-right: 5px;
 }
 
+.restaurant-title a {
+    transition: color 1s ease-in-out;
+}
+
+.restaurant-title a:hover {
+    transition: color 1s ease-in-out;
+    color: #7A6E11;
+}
+
 .restaurant-content {
     text-align: center;
     font-family: 'Noto Serif', serif;
+}
+
+.restaurant-menu-link {
+    color: #0F1E0E;
+    font-weight: 700;
+    transition: color 1s ease-in-out;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.restaurant-menu-link:hover {
+    color: #7A6E11;
+    transition: color 1s ease-in-out;
 }
 
 /*---------------------------------------------------------- /Restaurants */
@@ -421,6 +443,15 @@ nav {
     text-align: center;
     font-family: 'Crimson Text', serif;
     font-weight: 600;
+}
+
+.hotels-title a {
+    transition: color 1s ease-in-out;
+}
+
+.hotels-title a:hover {
+    transition: color 1s ease-in-out;
+    color: #7A6E11;
 }
 
 .hotels-title img {
