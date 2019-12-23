@@ -1,8 +1,24 @@
 $(document).ready(function(){
 
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("callModal");
+    var span = document.getElementsByClassName("close")[0];
+
+    $(btn).click(function() {
+        modal.style.display = "block";
+        });
+    $(span).click(function() {
+        modal.style.display = "none";
+        });
+    $(window).click(function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+            };
+    });
+
     /* Slide toggle for Index Event Text */
-    $('button').click(function(){
-        $(this).siblings('p').slideToggle('slow');
+    $('#event-button').click(function(){
+        $('.event-content').slideToggle('slow');
     });
 
     /* 1-5 image selector on attractions page */

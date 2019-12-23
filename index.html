@@ -30,7 +30,28 @@
         </div>
     </nav>
 <!---------------------------------------- /Nav Bar --->
-
+<!---------------------------------------- Modal --->
+    <article>
+        <button id="callModal">Open Modal</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h3>Contact Form</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Your Name" required>
+                        <input type="text" name="email" class="form-control" id="email" placeholder="Your Email" required>
+                        <input type="tel" name="mobile" class="form-control" id="mobile" placeholder="Your Contact Number (Optional)">
+                        <textarea rows="5" name="projectsummary" class="form-control" id="contact-summary" placeholder="How can we help?" required></textarea>
+                        <p class="help-block">Please include as much information as possible</p>
+                    </form>
+                </div>
+                <button class="modal-send-button center-block" id="modal-submit">Send</button>
+            </div>
+        </div>
+<!----------------------------------------- /Modal --->
 <!---------------------------------------- Title Image --->
     <article>
         <div class="continer-fluid">
