@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
-<!--- /Links to Bootstrap/Font Awsome/Stylesheet --->
+<!--- Email JS init link --->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_nSKDhRza0YUvyFCuCMSjY");
+        })();
+    </script>
 </head>
 
 <body>
@@ -40,15 +46,15 @@
                     <h3>Contact Form</h3>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" class="form-control" id="fullname" placeholder="Your Name" required>
                         <input type="text" name="email" class="form-control" id="email" placeholder="Your Email" required>
                         <input type="tel" name="mobile" class="form-control" id="mobile" placeholder="Your Contact Number (Optional)">
-                        <textarea rows="5" name="projectsummary" class="form-control" id="contact-summary" placeholder="How can we help?" required></textarea>
+                        <textarea rows="5" name="contactsummary" class="form-control" id="contactsummary" placeholder="How can we help?" required></textarea>
                         <p class="help-block">Please include as much information as possible</p>
+                        <button type="submit" class="modal-send-button center-block" id="modal-submit">Send</button>
                     </form>
                 </div>
-                <button class="modal-send-button center-block" id="modal-submit">Send</button>
             </div>
         </div>
 <!----------------------------------------- /Modal --->
@@ -191,4 +197,5 @@
 <!--------------------------------------- Loading Jasmine JS test file then Main Javascript file --->
     <!-----<script type="text/javascript" src="assets/scripts/mainjsSpec.js"></script>--->
     <script type="text/javascript" src="assets/scripts/main.js"></script>
+    <script type="text/javascript" src="assets/scripts/emailjs.js"></script>
 </html>
