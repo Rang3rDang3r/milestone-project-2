@@ -187,6 +187,18 @@ nav {
     transition: 1s ease-in-out;
 }
 
+.alert-success {
+    background-color: bada55;
+    color: #0F1E0E;
+    padding-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    display: none;
+    border-bottom: #7A6E11 solid 2px;
+}
+
 /*---------------------------------------------------------- Index section */
 
 #main-header-padding {

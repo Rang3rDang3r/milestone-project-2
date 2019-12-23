@@ -9,9 +9,12 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            $("#myModal").css("display", "none");
+            $(".alert-success").css("display", "block")
         },
         function(error) {
             console.log("FAILED", error);
+            $(".help-block").innerHTML("Our server is currently undergoing maintenance - Please try again later");
         }
     );      return false;
 }
