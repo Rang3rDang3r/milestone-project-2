@@ -17,8 +17,8 @@ $(document).ready(function(){
     });
 
     /* Slide toggle for Index Event Text */
-    $('#event-button').click(function(){
-        $('.event-content').slideToggle('slow');
+    $('.event-button').click(function(){
+        $(this).siblings('.event-content').slideToggle('slow');
     });
 
     /* 1-5 image selector on attractions page */
