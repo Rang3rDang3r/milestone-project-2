@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
-<!--- /Links to Bootstrap/Font Awsome/Stylesheet --->
+<!--- Email JS init link --->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_nSKDhRza0YUvyFCuCMSjY");
+        })();
+    </script>
 </head>
 
 <body>
@@ -23,13 +29,34 @@
                         <li><a href="attractions.html"><i class="fa fa-map"></i>Attractions</a></li>
                         <li><a href="restaurants.html"><i class="fa fa-glass"></i>Restaurants</a></li>
                         <li><a href="hotels.html"><i class="fa fa-hotel"></i>Hotels</a></li>
-                        <li><a href="#"><i class="fa fa-envelope"></i>Contact</a></li>
+                        <li><a id="callModal"><i class="fa fa-envelope"></i>Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
 <!---------------------------------------- /Nav Bar --->
+<!---------------------------------------- Modal --->
+    <article>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h3>Contact Form</h3>
+                </div>
+                <div class="modal-body">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Your Name" required>
+                        <input type="text" name="email" class="form-control" id="email" placeholder="Your Email" required>
+                        <input type="tel" name="mobile" class="form-control" id="mobile" placeholder="Your Contact Number (Optional)">
+                        <textarea rows="5" name="contactsummary" class="form-control" id="contactsummary" placeholder="How can we help?" required></textarea>
+                        <p class="help-block">Please include as much information as possible</p>
+                        <button type="submit" class="modal-send-button center-block" id="modal-submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!----------------------------------------- /Modal --->
 <!---------------------------------------- Page Title --->
     <article>
         <div class="subpage-title">
@@ -154,5 +181,6 @@
     <script type="text/javascript" src="assets/scripts/jquery-3.4.1.js"></script>
 <!--------------------------------------- Loading Additional JS files --->  
     <script type="text/javascript" src="assets/scripts/main.js"></script>
+    <script type="text/javascript" src="assets/scripts/emailjs.js"></script>
     
 </html>

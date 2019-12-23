@@ -91,6 +91,7 @@ nav {
     font-weight: 600;
     transition: color 1s ease-in-out;
     color: #0F1E0E;
+    cursor: pointer;
 }
 
 .topnav-links li a i {
