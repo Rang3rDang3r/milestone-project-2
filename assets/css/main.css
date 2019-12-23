@@ -197,6 +197,8 @@ nav {
     font-family: 'Noto Serif', serif;
     display: none;
     border-bottom: #7A6E11 solid 2px;
+    animation-name: animatedrop;
+    animation-duration: 1s;
 }
 
 /*---------------------------------------------------------- Index section */
@@ -634,8 +636,14 @@ footer {
 
 /* Modal Animation */
 @keyframes animatein {
-  from {left: -300px; opacity: 0}
-  to {left: 0; opacity: 1}
+    from {left: -300px; opacity: 0}
+    to {left: 0; opacity: 1}
+}
+
+/* Modal Alert Animation */
+@keyframes animatedrop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
 }
 
 /*---------------------------------------------------------- /Keyframes */
