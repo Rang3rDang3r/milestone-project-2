@@ -47,7 +47,7 @@ function initMap() {
     });
     var image = 'https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_red7.png';
     var marker = new google.maps.Marker({
-    position: {lat: 51.218970, lng: -0.797906},
+    position: {lat: 51.221687, lng: -0.801518},
     map: map,
     icon: image
     });
