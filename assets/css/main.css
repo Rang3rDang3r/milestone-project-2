@@ -553,6 +553,23 @@ nav {
     font-family: 'Noto Serif', serif;
 }
 
+.hotel-menu-link {
+    color: #0F1E0E;
+    font-weight: 700;
+    transition: color 1s ease-in-out;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.hotel-menu-link:hover {
+    color: #7A6E11;
+    transition: color 1s ease-in-out;
+}
+
+.hotel-padding-bottom {
+    padding-bottom: 25px;
+}
+
 /*---------------------------------------------------------- /Hotels */
 
 /*---------------------------------------------------------- Google Maps API */
