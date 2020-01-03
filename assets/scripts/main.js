@@ -45,7 +45,7 @@ $(document).ready(function(){
     });
 
     /* Slide toggle for attractions */
-    $('button').click(function(){
+    $('.show-more-less-button').click(function(){
         $("#show-hide1").slideToggle('slow')
         $("#show-hide2").slideToggle('slow');
     });
